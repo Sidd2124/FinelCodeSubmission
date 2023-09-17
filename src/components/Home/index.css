@@ -1,0 +1,222 @@
+table {
+  border-collapse: collapse;
+  margin: 10px;
+  border: 2px solid white;
+  background-color: #00008b;
+  width: 800px;
+  height: 500px;
+
+  color: white;
+}
+
+.Firsttable {
+  height: 400px;
+  width: 300px;
+}
+
+.Chart {
+  border-radius: 8px;
+  color: white;
+
+  background-color: rgb(15, 115, 209);
+  margin: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.ChartStyle {
+  height: 600px;
+  width: 900px;
+}
+
+.Middle {
+  color: orange;
+}
+
+.Styling {
+  width: 850px;
+  height: 400px;
+}
+.BoxOne {
+  background-color: blue;
+  margin: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: White;
+  padding: 20px;
+  margin: 80px;
+  font-size: medium;
+  width: 800px;
+  height: 400px;
+}
+
+.BoxTwo {
+  background-color: lightblue;
+  width: 100vw;
+  padding: 10px;
+  color: white;
+}
+
+.TableData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Body {
+  background-color: red;
+}
+
+.Button {
+  background-color: rgb(44, 160, 199);
+  height: 35px;
+  width: 150px;
+  color: white;
+  border-radius: 6px;
+  border: 0px Solid;
+  font-size: small;
+}
+
+th {
+  border-bottom: 1px solid black;
+  border: 2px solid black;
+}
+
+td {
+  text-align: center;
+  border: 2px solid black;
+}
+.Finel {
+  border-top: 0px solid;
+  border-bottom: 0px solid;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.Top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 100vw;
+}
+
+.LastBox {
+  display: flex;
+  margin-left: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  background-image: linear-gradient(to right, blue, violet);
+  margin: 20px;
+  border-radius: 8px;
+  width: 900px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Lastlogo {
+  font-size: xx-large;
+}
+.MiniFirst {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: small;
+  width: 400px;
+  height: 250px;
+}
+.MiniLast {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: xx-small;
+  height: 160px;
+}
+
+.Trends {
+  background-color: rgb(48, 48, 85);
+  border-radius: 8px;
+  height: 300px;
+  width: 900px;
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@media (max-width: 460px) {
+  .BoxOne {
+    width: 400px;
+    height: 200px;
+    font-size: 8px;
+  }
+  .Button {
+    height: 30px;
+    width: 150px;
+  }
+
+  .table {
+    width: 400px;
+    margin: 30px;
+    font-size: 10px;
+  }
+  .LastBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    background-image: linear-gradient(to right, blue, violet);
+    margin: 20px;
+    border-radius: 8px;
+    width: 400px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .Lastlogo {
+    font-size: xx-large;
+  }
+  .MiniFirst {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 6px;
+    width: 200px;
+    height: 150px;
+  }
+  .MiniLast {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: xx-small;
+    height: 120px;
+    width: 140px;
+  }
+  .Trends {
+    width: 400px;
+    height: 200px;
+  }
+
+  .Styling {
+    width: 450px;
+    height: 200px;
+    background-color: red;
+  }
+}

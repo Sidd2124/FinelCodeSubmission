@@ -1,0 +1,56 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 10px;
+}
+.LeftHeader {
+  margin: 10px;
+  margin-top: 60px;
+}
+
+.Sidd {
+  height: 20px;
+  border-radius: 50px;
+  margin: 5px;
+  width: 20px;
+}
+
+.button {
+  height: 30px;
+  margin-top: 55px;
+  border: 0px solid;
+  background-image: linear-gradient(to right, blue, violet);
+
+  border-radius: 6px;
+  color: white;
+}
+
+.Logo {
+  height: 50px;
+  margin-top: 50px;
+}
+
+.King {
+  display: flex;
+  flex-direction: row;
+}
+
+.Sidd {
+  margin-top: 5px;
+}
+
+@media (max-width: 460px) {
+  .Header {
+    width: 450px;
+    font-size: xxx-small;
+  }
+  .Logo {
+    height: 40px;
+    margin-top: 50px;
+  }
+  .LeftHeader {
+    font-size: 12px;
+  }
+}
