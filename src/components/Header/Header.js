@@ -2,14 +2,13 @@ import './Header.css'
 
 const Header = () => (
   <div className="Header">
-    <div>
-      <img
-        className="Logo"
-        src="https://i.ibb.co/z6g71L1/Screenshot-2023-09-17-224727.png"
-        alt="Logo"
-      />
-    </div>
-    <div className="King">
+    <img
+      className="Logo"
+      src="https://i.ibb.co/z6g71L1/Screenshot-2023-09-17-224727.png"
+      alt="Logo"
+    />
+
+    <div className="King FirstRow">
       <p className="LeftHeader">About</p>
       <p className="LeftHeader">Port fortfolio</p>
       <p className="LeftHeader">Contact</p>

@@ -1,12 +1,18 @@
 table {
   border-collapse: collapse;
-  margin: 10px;
-  border: 2px solid white;
-  background-color: #00008b;
-  width: 800px;
-  height: 500px;
-
+  margin: 40px;
+  background-color: rgba(93, 46, 133, 0.4);
+  border: 1px solid white;
+  padding: 30px;
+  border-radius: 6px;
+  width: 1270px;
+  height: 450px;
+  overflow-y: auto;
+  font-size: large;
   color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .Firsttable {
@@ -17,7 +23,8 @@ table {
 .Chart {
   border-radius: 8px;
   color: white;
-
+  padding: 30px;
+  width: 1270px;
   background-color: rgb(15, 115, 209);
   margin: 40px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -38,29 +45,46 @@ table {
   width: 850px;
   height: 400px;
 }
+
 .BoxOne {
-  background-color: blue;
-  margin: 20px;
+  background: url('https://s3-alpha-sig.figma.com/img/9a20/0693/d179c2104d5b48a96068c78780e4a947?Expires=1696204800&Signature=VRxue9kyYDlbtpahTLw771jqqmpQFd0oUj3L-lXOrWhwDX2hbYhMsIHGduRcO41U1jOHDUFb6vqAK4hzGjIBBJHn30PH-2VmdOf9J2eZyUv52mZMMzDqzeoDsvuMdDe0Tedn2tvlqTtBrWcv9RGTtywavPwQ-rhqOIorDDu-BKDdhqRl~Vgg7vtufRakVUswQ79nG4OnimTc~ihfum6grLfVKqFrJppASQuPpwvK9qf93FrsmaflroGkJVLyx5RjqP5Sapfktv0beFSylq63Xn0wYoZ-cL2sk7gPX11GMuwhimPTEcg1jLcoud6tjy0I5VvPR2HZRSEtmRWrF4blsw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+    65px 0px / 105.893% 122.923% no-repeat;
+  background-size: cover;
+  background-color: red;
+  width: 1113px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: White;
-  padding: 20px;
-  margin: 80px;
-  font-size: medium;
-  width: 800px;
-  height: 400px;
+
+  margin: 50px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .BoxTwo {
-  background-color: lightblue;
+  background-color: #3b79f2;
   width: 100vw;
-  padding: 10px;
+  padding: 20px;
   color: white;
 }
 
+.First {
+  padding: 25px;
+}
+
+.Thala {
+  background-color: #3b79f2;
+  opacity: 0.8;
+  width: 1113px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 5px;
+}
 .TableData {
   display: flex;
   flex-direction: column;
@@ -69,7 +93,12 @@ table {
 }
 
 .Body {
-  background-color: red;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .Button {
@@ -94,8 +123,8 @@ td {
 .Finel {
   border-top: 0px solid;
   border-bottom: 0px solid;
-  border-left: 2px solid white;
-  border-right: 2px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 
 .Top {
@@ -103,20 +132,23 @@ td {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  width: 100vw;
 }
 
 .LastBox {
+  width: 1270px;
   display: flex;
-  margin-left: 50px;
+
   flex-direction: row;
   justify-content: space-between;
   padding: 30px;
-  background-image: linear-gradient(to right, blue, violet);
-  margin: 20px;
+  background-image: linear-gradient(
+    to right,
+    rgba(3, 119, 226, 1),
+    rgba(173, 66, 199, 1)
+  );
+  margin: 40px;
   border-radius: 8px;
-  width: 900px;
+
   height: 300px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
@@ -135,6 +167,7 @@ td {
   font-size: small;
   width: 400px;
   height: 250px;
+  margin: 20px;
 }
 .MiniLast {
   margin: 50px;
@@ -145,22 +178,24 @@ td {
   height: 160px;
 }
 
-.Trends {
-  background-color: rgb(48, 48, 85);
-  border-radius: 8px;
-  height: 300px;
-  width: 900px;
-  margin: 20px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-@media (max-width: 460px) {
+@media (max-width: 500px) {
   .BoxOne {
-    width: 400px;
+    width: 350px;
     height: 200px;
     font-size: 8px;
+    padding: 0px;
+  }
+  .Thala {
+    background-color: #3b79f2;
+    opacity: 0.8;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 5px;
   }
   .Button {
     height: 30px;
@@ -168,20 +203,22 @@ td {
   }
 
   .table {
-    width: 400px;
-    margin: 30px;
-    font-size: 10px;
+    padding: 10px;
+    margin: 20px;
+    width: 330px;
+
+    font-size: small;
   }
   .LastBox {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px;
+    padding: 10px;
     background-image: linear-gradient(to right, blue, violet);
     margin: 20px;
     border-radius: 8px;
-    width: 400px;
-    height: 200px;
+    width: 330px;
+    height: 220px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
       rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
       rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -214,9 +251,27 @@ td {
     height: 200px;
   }
 
+  .Chart {
+    width: 330px;
+  }
+
+  .First {
+    padding: 0px;
+    margin: 0px;
+  }
+  .BoxTwo {
+    padding: 15px;
+  }
   .Styling {
     width: 450px;
     height: 200px;
-    background-color: red;
+  }
+  .Chart {
+    height: 400px;
+    margin: 20px;
+  }
+  .Body {
+    height: 1800px;
+    overflow: auto;
   }
 }

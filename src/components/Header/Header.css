@@ -3,11 +3,13 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100vw;
-  padding: 10px;
+
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .LeftHeader {
   margin: 10px;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .Sidd {
@@ -19,9 +21,9 @@
 
 .button {
   height: 30px;
-  margin-top: 55px;
+  margin-top: 20px;
   border: 0px solid;
-  background-image: linear-gradient(to right, blue, violet);
+  background-image: linear-gradient(to right, #0377e2, #ad42c7);
 
   border-radius: 6px;
   color: white;
@@ -29,7 +31,7 @@
 
 .Logo {
   height: 50px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .King {
@@ -41,16 +43,19 @@
   margin-top: 5px;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 500px) {
   .Header {
-    width: 450px;
-    font-size: xxx-small;
+    font-size: 4px;
+    padding: 8px;
+    width: 100vw;
+    margin: 8px;
   }
   .Logo {
-    height: 40px;
-    margin-top: 50px;
+    height: 20px;
+    margin-top: 10px;
   }
-  .LeftHeader {
-    font-size: 12px;
+
+  .FirstRow {
+    font-size: 10px;
   }
 }

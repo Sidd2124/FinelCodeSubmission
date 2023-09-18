@@ -14,6 +14,7 @@ import {
 import {RiHomeSmileLine} from 'react-icons/ri'
 
 import {Component} from 'react'
+import Footer from '../Footer/Footer'
 
 import Ranks from '../RankTable/Ranks'
 
@@ -92,414 +93,6 @@ const RankDetails = [
     close: 183.83,
     Gain: 0.009,
   },
-  {
-    Rank: 10,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 11,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 12,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 13,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.8,
-    Gain: 0.009,
-  },
-  {
-    Rank: 14,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 15,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 16,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 17,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 18,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 19,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.8,
-    Gain: 0.009,
-  },
-  {
-    Rank: 20,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 21,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 22,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 23,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 24,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 25,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.8,
-    Gain: 0.009,
-  },
-  {
-    Rank: 26,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 27,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 28,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 29,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 30,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 31,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.8,
-    Gain: 0.009,
-  },
-  {
-    Rank: 32,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 33,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 34,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 35,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 36,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 37,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.8,
-    Gain: 0.009,
-  },
-  {
-    Rank: 38,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 39,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 40,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 41,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 42,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 43,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.8,
-    Gain: 0.009,
-  },
-  {
-    Rank: 44,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 45,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 46,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 47,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 48,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 49,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.8,
-    Gain: 0.009,
-  },
-  {
-    Rank: 50,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 51,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 52,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 53,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 54,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 55,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.8,
-    Gain: 0.009,
-  },
-  {
-    Rank: 56,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 57,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 58,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 59,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
-  {
-    Rank: 60,
-    Ticket: 'ABC',
-    prediction: 183.83,
-    open: 182.81,
-    close: 183.83,
-    Gain: 0.009,
-  },
 ]
 
 const data = [
@@ -550,49 +143,50 @@ class Home extends Component {
     }
 
     return (
-      <div className="Top">
+      <div className="Body">
         <Header />
-
-        <div className="BoxOne">
-          <h1>
-            Predicting Profits: Your Window to
-            <h3 className="Middle"> Tommoarow Top Stocks</h3>
-            ,Today!
-          </h1>
-          <Link to="/Signup">
-            <button type="button" className="Button">
-              Sign Up
-            </button>
-          </Link>
+        <div className="First">
+          <div className="BoxOne ">
+            <div className="Thala">
+              <h1>
+                Predicting Profits: Your Window to{' '}
+                <p className="Middle"> Tommoarow Top Stocks</p>
+                ,Today!
+              </h1>
+              <Link to="/Signup">
+                <button type="button" className="Button">
+                  Sign Up
+                </button>
+              </Link>
+            </div>
+          </div>
         </div>
         <div className="BoxTwo">
           <h1>Top 50 Daily Predictions</h1>
 
-          <div className="TableData">
-            <table className="table">
-              <thead>
-                <tr>
-                  <th>Rank</th>
-                  <th>Ticket</th>
-                  <th>prediction</th>
-                  <th>open</th>
-                  <th>Close</th>
-                  <th>Gain/Loss %</th>
-                </tr>
-              </thead>
-              <tbody>
-                {RankDetails.map(each => (
-                  <Ranks Details={each} />
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <table className="table">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Ticket</th>
+                <th>prediction</th>
+                <th>open</th>
+                <th>Close</th>
+                <th>Gain/Loss %</th>
+              </tr>
+            </thead>
+            <tbody>
+              {RankDetails.map(each => (
+                <Ranks Details={each} />
+              ))}
+            </tbody>
+          </table>
 
           <div>
             <h1>Daily Predictions vs Close </h1>
 
             <div className="Chart">
-              <ResponsiveContainer width={845} height={400}>
+              <ResponsiveContainer width={1010} height={540}>
                 <LineChart
                   data={data}
                   margin={{
@@ -634,7 +228,7 @@ class Home extends Component {
           <div className="LastBox">
             <div className="MiniFirst">
               <RiHomeSmileLine className="Lastlogo" />
-              <h4>NEWSLETTER</h4>
+              <p>NEWSLETTER</p>
               <h1>SubScribe</h1>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -653,6 +247,8 @@ class Home extends Component {
             </div>
           </div>
         </div>
+
+        <Footer />
       </div>
     )
   }
