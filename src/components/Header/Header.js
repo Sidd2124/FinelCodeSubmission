@@ -14,10 +14,10 @@ const Header = () => (
       <p className="LeftHeader">Contact</p>
       <div className="King">
         <button type="button" className="button King">
-          <p className="Sidd">Sidd</p>
+          <p className="HeaderText">Sidd</p>
 
           <img
-            className="Sidd"
+            className="HeaderText"
             src="https://i.ibb.co/0QtKdd8/01-FED8-CB62-PCH492-J0-AN4-AR8-BW.jpg"
             alt="Sidd"
           />

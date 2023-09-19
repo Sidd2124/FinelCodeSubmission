@@ -8,7 +8,7 @@
   padding-right: 20px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 920px) {
   .Footer {
     font-size: 5px;
     padding: 8px;

@@ -178,7 +178,7 @@ td {
   height: 160px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 920px) {
   .BoxOne {
     width: 350px;
     height: 200px;
