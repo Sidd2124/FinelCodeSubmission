@@ -14,11 +14,8 @@ import {
 import {RiHomeSmileLine} from 'react-icons/ri'
 
 import {Component} from 'react'
-import Footer from '../Footer/Footer'
 
 import Ranks from '../RankTable/Ranks'
-
-import Header from '../Header/Header'
 
 const RankDetails = [
   {
@@ -143,28 +140,26 @@ class Home extends Component {
     }
 
     return (
-      <div className="Body">
-        <Header />
-        <div className="First">
-          <div className="BoxOne ">
-            <div className="Thala">
-              <h1>
-                Predicting Profits: Your Window to{' '}
-                <p className="Middle"> Tommoarow Top Stocks</p>
-                ,Today!
-              </h1>
-              <Link to="/Signup">
-                <button type="button" className="Button">
-                  Sign Up
-                </button>
-              </Link>
-            </div>
+      <div className="TopMain">
+        <div className="PredictingBanner">
+          <div className="InnerPredictingBanner">
+            <h1>
+              Predicting Profits: Your Window to{' '}
+              <p className="PedictInformation"> Tommoarow Top Stocks</p>
+              ,Today!
+            </h1>
+            <Link to="/Signup">
+              <button type="button" className="SubscribeButton">
+                Sign Up
+              </button>
+            </Link>
           </div>
         </div>
-        <div className="BoxTwo">
+
+        <div className="StockInformation">
           <h1>Top 50 Daily Predictions</h1>
 
-          <table className="table">
+          <table className="StockTable">
             <thead>
               <tr>
                 <th>Rank</th>
@@ -186,7 +181,7 @@ class Home extends Component {
             <h1>Daily Predictions vs Close </h1>
 
             <div className="Chart">
-              <ResponsiveContainer width={1010} height={540}>
+              <ResponsiveContainer width={1090} height={440}>
                 <LineChart
                   data={data}
                   margin={{
@@ -225,8 +220,8 @@ class Home extends Component {
               </ResponsiveContainer>
             </div>
           </div>
-          <div className="LastBox">
-            <div className="MiniFirst">
+          <div className="SubscribeBox">
+            <div className="NewsLetterSubscribe">
               <RiHomeSmileLine className="Lastlogo" />
               <p>NEWSLETTER</p>
               <h1>SubScribe</h1>
@@ -237,18 +232,16 @@ class Home extends Component {
                 of type and scrambled it to make a type specimen book
               </p>
             </div>
-            <div className="MiniLast">
+            <div className="SubscribeForm">
               <input type="Text" placeholder="First Name" />
               <input type="Text" placeholder="Last Name " />
               <input type="Text" placeholder="email" />
-              <button type="button" className="Button">
+              <button type="button" className="SubscribeButton">
                 Subscribe
               </button>
             </div>
           </div>
         </div>
-
-        <Footer />
       </div>
     )
   }

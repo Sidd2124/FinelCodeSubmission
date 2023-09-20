@@ -2,60 +2,100 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100vw;
 
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.MainHeaderLogo {
+  width: 268px;
+  height: 100px;
+  flex-shrink: 0;
 }
 .LeftHeader {
-  margin: 10px;
-  margin-top: 20px;
+  color: #1a1a1a;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  margin-top: 40px;
 }
 
-.HeaderText {
+.HeaderLogo {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 15px;
+
+  background: url('https://i.ibb.co/0QtKdd8/01-FED8-CB62-PCH492-J0-AN4-AR8-BW.jpg'),
+    lightgray 50% / cover no-repeat, #d9d9d9;
+}
+
+.HeaderButtonFont {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: normal;
+  width: 33px;
   height: 20px;
-  border-radius: 50px;
-  margin: 5px;
-  width: 20px;
 }
 
 .button {
-  height: 30px;
-  margin-top: 20px;
-  border: 0px solid;
   background-image: linear-gradient(to right, #0377e2, #ad42c7);
-
+  border: 0px solid;
   border-radius: 6px;
-  color: white;
-}
-
-.Logo {
-  height: 50px;
-  margin-top: 10px;
-}
-
-.King {
+  margin: 4px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  padding: 4px;
+  flex-shrink: 0;
+  width: 120px;
+  margin-top: 30px;
+  justify-content: space-between;
 }
 
-.Sidd {
-  margin-top: 5px;
-}
-
-@media (max-width: 920px) {
+@media Screen and (max-width: 920px) {
   .Header {
-    font-size: 4px;
-    padding: 8px;
-    width: 100vw;
-    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: xx-small;
+    width: 40px;
   }
-  .Logo {
-    height: 20px;
-    margin-top: 10px;
+  .button {
+    background-image: linear-gradient(to right, #0377e2, #ad42c7);
+    border: 0px solid;
+    border-radius: 6px;
+    margin: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    padding: 4px;
+    flex-shrink: 0;
+    width: 100px;
+    margin-top: 35px;
+    justify-content: space-between;
   }
+  .HeaderLogo {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 15px;
 
-  .FirstRow {
-    font-size: 10px;
+    background: url('https://i.ibb.co/0QtKdd8/01-FED8-CB62-PCH492-J0-AN4-AR8-BW.jpg'),
+      lightgray 50% / cover no-repeat, #d9d9d9;
+  }
+  .MainHeaderLogo {
+    width: 88px;
+    height: 60px;
+    flex-shrink: 0;
+    margin-top: 20px;
   }
 }

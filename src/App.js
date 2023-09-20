@@ -6,10 +6,15 @@ import Signup from './components/SignUp/SignUP'
 
 import NotFound from './components/NotFound'
 
+import Header from './components/Header/Header'
+
+import Footer from './components/Footer/Footer'
+
 import './App.css'
 
 const App = () => (
   <BrowserRouter>
+    <Header />
     <Switch>
       <Route exact path="/" component={Home} />
 
@@ -18,6 +23,7 @@ const App = () => (
       <Route exact path="/Signup" component={Signup} />
       <Redirect to="/NotFound" />
     </Switch>
+    <Footer />
   </BrowserRouter>
 )
 

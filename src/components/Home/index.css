@@ -1,277 +1,305 @@
-table {
+.TopMain {
+  padding: 0px;
+  font-family: Sans-serif;
+}
+
+.StockTable {
   border-collapse: collapse;
-  margin: 40px;
   background-color: rgba(93, 46, 133, 0.4);
   border: 1px solid white;
   padding: 30px;
-  border-radius: 6px;
-  width: 1270px;
+  border-radius: 20px;
+  width: 1280px;
   height: 450px;
   overflow-y: auto;
-  font-size: large;
-  color: white;
+  overflow-x: auto;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.Firsttable {
-  height: 400px;
-  width: 300px;
+.StockInformation {
+  background: #3b79f2;
+  color: #ffff;
+  padding: 10px;
+
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.SubscribeBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    to right,
+    rgba(3, 119, 226, 1),
+    rgba(173, 66, 199, 1)
+  );
+  margin-top: 30px;
+  border-radius: 8px;
+  width: 1280px;
+  height: 350px;
+  border-top: 0.4px solid White;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .Chart {
   border-radius: 8px;
   color: white;
   padding: 30px;
-  width: 1270px;
-  background-color: rgb(15, 115, 209);
-  margin: 40px;
+  width: 1280px;
+  background-color: rgba(93, 46, 133, 0.4);
+  height: 470px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.ChartStyle {
-  height: 600px;
-  width: 900px;
-}
-
-.Middle {
-  color: orange;
-}
-
-.Styling {
-  width: 850px;
-  height: 400px;
-}
-
-.BoxOne {
+.PredictingBanner {
   background: url('https://s3-alpha-sig.figma.com/img/9a20/0693/d179c2104d5b48a96068c78780e4a947?Expires=1696204800&Signature=VRxue9kyYDlbtpahTLw771jqqmpQFd0oUj3L-lXOrWhwDX2hbYhMsIHGduRcO41U1jOHDUFb6vqAK4hzGjIBBJHn30PH-2VmdOf9J2eZyUv52mZMMzDqzeoDsvuMdDe0Tedn2tvlqTtBrWcv9RGTtywavPwQ-rhqOIorDDu-BKDdhqRl~Vgg7vtufRakVUswQ79nG4OnimTc~ihfum6grLfVKqFrJppASQuPpwvK9qf93FrsmaflroGkJVLyx5RjqP5Sapfktv0beFSylq63Xn0wYoZ-cL2sk7gPX11GMuwhimPTEcg1jLcoud6tjy0I5VvPR2HZRSEtmRWrF4blsw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
     65px 0px / 105.893% 122.923% no-repeat;
-  background-size: cover;
-  background-color: red;
-  width: 1113px;
-  border-radius: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: White;
+  background-size: cover;
+  margin: 30px;
 
-  margin: 50px;
+  width: 1200px;
+  height: 450px;
+  margin-left: 135px;
+  margin-right: 135px;
+  border-radius: 30px;
+  flex-shrink: 0;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.BoxTwo {
+.InnerPredictingBanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 450px;
+  border-radius: 30px;
+  font-weight: 900;
+  padding: 40px;
+  flex-shrink: 0;
+  background-color: rgba(0, 67, 129, 1);
+  opacity: 0.9;
+  color: #fff;
+  text-align: center;
+  font-size: medium;
+}
+
+.SubscribeButton {
   background-color: #3b79f2;
-  width: 100vw;
-  padding: 20px;
-  color: white;
-}
-
-.First {
-  padding: 25px;
-}
-
-.Thala {
-  background-color: #3b79f2;
-  opacity: 0.8;
-  width: 1113px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px;
-  padding: 5px;
-}
-.TableData {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.Body {
-  padding-left: 10px;
-  padding-right: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.Button {
-  background-color: rgb(44, 160, 199);
-  height: 35px;
-  width: 150px;
+  height: 25px;
+  width: 130px;
+  font-size: 1px;
   color: white;
   border-radius: 6px;
   border: 0px Solid;
   font-size: small;
+  margin: 6px;
 }
 
 th {
-  border-bottom: 1px solid black;
-  border: 2px solid black;
+  border-bottom: 0px solid #ffff;
+  border: 1px solid #ffff;
 }
 
 td {
   text-align: center;
-  border: 2px solid black;
-}
-.Finel {
-  border-top: 0px solid;
-  border-bottom: 0px solid;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  border: 1px solid #ffff;
 }
 
-.Top {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.LastBox {
-  width: 1270px;
-  display: flex;
-
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 30px;
-  background-image: linear-gradient(
-    to right,
-    rgba(3, 119, 226, 1),
-    rgba(173, 66, 199, 1)
-  );
-  margin: 40px;
-  border-radius: 8px;
-
-  height: 300px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-.Lastlogo {
-  font-size: xx-large;
-}
-.MiniFirst {
+.NewsLetterSubscribe {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: small;
-  width: 400px;
-  height: 250px;
-  margin: 20px;
+  font-size: x-small;
+  padding: 40px;
+
+  margin: 60px;
+  font-family: Sans-serif;
 }
-.MiniLast {
-  margin: 50px;
+.SubscribeForm {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   font-size: xx-small;
-  height: 160px;
+  margin: 70px;
+  padding: 30px;
 }
 
-@media (max-width: 920px) {
-  .BoxOne {
-    width: 350px;
-    height: 200px;
-    font-size: 8px;
+.PedictInformation {
+  color: #f90;
+}
+
+@media Screen and (max-width: 920px) {
+  .TopMain {
     padding: 0px;
+
+    width: 400px;
+    font-family: Sans-serif;
   }
-  .Thala {
-    background-color: #3b79f2;
-    opacity: 0.8;
+
+  .StockTable {
+    border-collapse: collapse;
+    background-color: rgba(93, 46, 133, 0.4);
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
     width: 350px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    padding: 5px;
-  }
-  .Button {
-    height: 30px;
-    width: 150px;
-  }
-
-  .table {
-    padding: 10px;
-    margin: 20px;
-    width: 330px;
-
+    height: 450px;
+    overflow-y: auto;
+    overflow-x: auto;
+    color: #fff;
     font-size: small;
-  }
-  .LastBox {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px;
-    background-image: linear-gradient(to right, blue, violet);
-    margin: 20px;
-    border-radius: 8px;
-    width: 330px;
-    height: 220px;
+
+    line-height: normal;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
       rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
       rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
 
-  .Lastlogo {
-    font-size: xx-large;
+  .StockInformation {
+    background: #3b79f2;
+    color: #ffff;
+    padding: 10px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  .MiniFirst {
+  .SubscribeBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient(
+      to right,
+      rgba(3, 119, 226, 1),
+      rgba(173, 66, 199, 1)
+    );
+    margin-top: 30px;
+    border-radius: 8px;
+    width: 350px;
+    height: 450px;
+    border-top: 0.4px solid White;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .Chart {
+    border-radius: 8px;
+    color: white;
+    padding: 30px;
+    width: 370px;
+    margin: 20px;
+    background-color: rgba(93, 46, 133, 0.4);
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .PredictingBanner {
+    background: url('https://s3-alpha-sig.figma.com/img/9a20/0693/d179c2104d5b48a96068c78780e4a947?Expires=1696204800&Signature=VRxue9kyYDlbtpahTLw771jqqmpQFd0oUj3L-lXOrWhwDX2hbYhMsIHGduRcO41U1jOHDUFb6vqAK4hzGjIBBJHn30PH-2VmdOf9J2eZyUv52mZMMzDqzeoDsvuMdDe0Tedn2tvlqTtBrWcv9RGTtywavPwQ-rhqOIorDDu-BKDdhqRl~Vgg7vtufRakVUswQ79nG4OnimTc~ihfum6grLfVKqFrJppASQuPpwvK9qf93FrsmaflroGkJVLyx5RjqP5Sapfktv0beFSylq63Xn0wYoZ-cL2sk7gPX11GMuwhimPTEcg1jLcoud6tjy0I5VvPR2HZRSEtmRWrF4blsw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4'),
+      65px 0px / 105.893% 122.923% no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    margin: 30px;
+
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 30px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .InnerPredictingBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    font-weight: 900;
+    padding: 10px;
+    flex-shrink: 0;
+    background-color: rgba(0, 67, 129, 1);
+    opacity: 0.9;
+    color: #fff;
+    text-align: center;
+    font-size: small;
+  }
+
+  .SubscribeButton {
+    background-color: #3b79f2;
+    height: 25px;
+    width: 130px;
+    font-size: 1px;
+    color: white;
+    border-radius: 6px;
+    border: 0px Solid;
+    font-size: small;
+    margin: 6px;
+  }
+
+  th {
+    border-bottom: 0px solid #ffff;
+    border: 1px solid #ffff;
+  }
+
+  td {
+    text-align: center;
+    border: 1px solid #ffff;
+  }
+
+  .NewsLetterSubscribe {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 6px;
-    width: 200px;
-    height: 150px;
+    font-size: x-small;
+    padding: 30px;
+
+    margin: 30px;
+    font-family: Sans-serif;
   }
-  .MiniLast {
-    margin: 20px;
+  .SubscribeForm {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: xx-small;
-    height: 120px;
-    width: 140px;
-  }
-  .Trends {
-    width: 400px;
-    height: 200px;
+    align-items: center;
+    font-size: x-small;
+    margin: 10px;
+    padding: 10px;
   }
 
-  .Chart {
-    width: 330px;
-  }
-
-  .First {
-    padding: 0px;
-    margin: 0px;
-  }
-  .BoxTwo {
-    padding: 15px;
-  }
-  .Styling {
-    width: 450px;
-    height: 200px;
-  }
-  .Chart {
-    height: 400px;
-    margin: 20px;
-  }
-  .Body {
-    height: 1800px;
-    overflow: auto;
+  .PedictInformation {
+    color: #f90;
   }
 }
